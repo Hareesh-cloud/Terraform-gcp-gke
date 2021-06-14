@@ -39,7 +39,7 @@ resource "kubernetes_deployment" "app-deploy-demo" {
 
       spec {
         container {
-          image = "kserge2001/school"
+          image = "gcr.io/decent-habitat-315907/tomcat"
           name  = "app-deploy-demo"
         }
       }
