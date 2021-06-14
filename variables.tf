@@ -1,7 +1,7 @@
 variable "project_id" {
   type        = string
   description = "Project Identifier"
-  default     = "cloud-302913"
+  default     = "decent-habitat-315907"
 }
 
 variable "project_region" {
